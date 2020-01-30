@@ -131,6 +131,18 @@ ul {
 .latestPostWrapper > div:last-of-type {
   background-color: #b4b4b4;
 }
+
+.latestPostWrapper > article {
+  flex: 1;
+  height: 542px;
+}
+.latestPostWrapper > article:first-of-type {
+  background-color: #b4b4b4;
+}
+.latestPostWrapper > article:last-of-type {
+  background-color: #b4b4b4;
+}
+
 .latestPost {
   padding: 20px
 }
