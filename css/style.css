@@ -63,3 +63,25 @@ display: inline-flex;
   width: 50%;
   height: 767px;
 }
+.articleHeader {
+  display: inline-flex;
+}
+.tagWrapper{
+  display: inline-flex;
+}
+
+.tagWrapper > p{
+  margin-right: 10px;
+}
+
+.mainArticleWrapper {
+  text-align: center;
+  position: relative;  
+  top: 50%;  
+  transform: translateY(-50%);
+  -ms-transform:translateY(-50%); /* IE */
+  -moz-transform:translateY(-50%); /* Firefox */
+  -webkit-transform:translateY(-50%); /* Safari and Chrome */
+  -o-transform:translateY(-50%);
+  text-align: center;
+}
