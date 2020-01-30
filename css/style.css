@@ -12,6 +12,13 @@ ul {
   margin: 0;
 }
 
+footer {
+  background-color: #444;
+  text-align: center;
+  height: 600px;
+  padding: 20px;
+}
+
 .vertical-align {
   position: relative;
   top: 50%;
@@ -30,6 +37,11 @@ ul {
   background-color: #444;
 }
 
+.lastRow li {
+  display: inline;
+  margin: 7px;
+}
+
 .menuList {
   display: flex;
   justify-content: center;
@@ -39,6 +51,35 @@ ul {
   flex: 1;
   height: 176px;
   vertical-align: middle;
+}
+
+.theBigTwo > div {
+  width: 50%;
+  height: 767px;
+}
+
+.latestPostWrapper > div {
+  flex: 1;
+  height: 542px;
+}
+
+.latestPostWrapper > article {
+  flex: 1;
+  height: 542px;
+}
+
+.personOftheWeek > article {
+  display: flex;
+}
+
+.tagWrapper > p {
+  margin-right: 10px;
+}
+
+.peopleWroteWrapperRow > article {
+  display: flex;
+  flex: 1;
+  padding: 20px;
 }
 
 .menuList > li > div {
@@ -52,8 +93,9 @@ ul {
   text-align: center;
 }
 
-.menuList > li:first-of-type {
-  background-color: #444;
+.article-details li {
+  margin-left: 70px;
+  padding: 10px;
 }
 
 .theBigTwo {
@@ -61,19 +103,12 @@ ul {
   display: inline-flex;
 }
 
-.theBigTwo > div {
-  width: 50%;
-  height: 767px;
-}
 .articleHeader {
   display: inline-flex;
 }
+
 .tagWrapper {
   display: inline-flex;
-}
-
-.tagWrapper > p {
-  margin-right: 10px;
 }
 
 .mainArticleWrapper {
@@ -85,7 +120,6 @@ ul {
   -moz-transform: translateY(-50%); /* Firefox */
   -webkit-transform: translateY(-50%); /* Safari and Chrome */
   -o-transform: translateY(-50%);
-  text-align: center;
 }
 
 .sectionThree {
@@ -108,11 +142,6 @@ ul {
   list-style-type: circle;
 }
 
-.article-details li {
-  margin-left: 70px;
-  padding: 10px;
-}
-
 .secthreeImage {
   width: 40%;
 }
@@ -126,38 +155,14 @@ ul {
   margin-top: 10px;
 }
 
-.latestPostWrapper > div {
-  flex: 1;
-  height: 542px;
-}
-.latestPostWrapper > div:first-of-type {
-  background-color: #b4b4b4;
-}
-.latestPostWrapper > div:last-of-type {
-  background-color: #b4b4b4;
-}
-
-.latestPostWrapper > article {
-  flex: 1;
-  height: 542px;
-}
-.latestPostWrapper > article:first-of-type {
-  background-color: #b4b4b4;
-}
-.latestPostWrapper > article:last-of-type {
-  background-color: #b4b4b4;
-}
-
 .latestPost {
   padding: 20px;
 }
+
 #featuredPostOne > div {
   height: 745px;
 }
 
-#featuredPostOne > div:nth-of-type(2) {
-  background-color: #444;
-}
 #featuredPostOne {
   color: #fff;
 }
@@ -201,54 +206,44 @@ ul {
   margin-top: 20px;
 }
 
-.personOftheWeek{
-   height: 342px;
+.personOftheWeek {
+  height: 342px;
 }
 
-.personOftheWeek > article{
-   display: flex;
-}
-
-.personOftheWeek:nth-of-type(2){
-  flex: 1;
-}
-.personOftheWeekContent{
+.personOftheWeekContent {
     padding: 20px;
 }
 
-.peopleWroteWrapperRow{
+.peopleWroteWrapperRow {
   height: 280px;
   display: flex;
 }
-.peopleWroteWrapperRow > article {
-  display: flex;
-  flex: 1;
-  padding: 20px
-}
 
-.peopleWroteWrapperRow > article > div:last-of-type {
-  flex: 1;
-}
-
-.peopleWrote_article_details{
+.peopleWrote_article_details {
   margin-left: 20px;
   padding-right: 20px;
 }
 
-.section-seven ul{
+.section-seven ul {
 list-style: circle;
 margin-left: 20px;
 }
 
-.section-seven li{
+.section-seven li {
   padding: 15px;
 }
 
-.section-seven a{
+.section-seven a {
   font-size: 20px;
 }
 
-#featuredPostTwo > div{
+.lastRow > img, .lastRow > div {
+  flex: 1;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#featuredPostTwo > div {
   height: 497px;
 }
 
@@ -265,36 +260,87 @@ margin-left: 20px;
 
 }
 
-.section-eight-links ul{
+.section-eight-links ul {
   list-style: circle;
 margin-left: 40px;
 
 }
 
-.section-eight-links li{
+.section-eight-links li {
   padding: 15px;
   font-size: 20px;
   color: blue;
 }
 
-.section-eight-image{
+.section-eight-image {
   text-align: center;
   width: 70%;
   background-color: #eee;
   border-radius: 10px;
 }
-.section-eight-image form{
+
+.section-eight-image form {
   margin-top: 20px;
 }
 
-.section-eight-image input{
+.section-eight-image input {
   height: 40px;
   border-radius: 20px;
 }
 
-.section-eight-image button{
+.section-eight-image button {
   height: 40px;
   border-radius: 20px;
   color: #000;
   outline: none;
+}
+
+.footerTags {
+  text-align: center;
+}
+
+.footerTags ul {
+  list-style: circle;
+  margin: 10px;
+}
+
+.footerTags li {
+  display: inline;
+  margin: 7px;
+}
+
+.lastRow {
+  display: flex;
+}
+
+.menuList > li:first-of-type {
+  background-color: #444;
+}
+
+.peopleWroteWrapperRow > article > div:last-of-type {
+  flex: 1;
+}
+
+.personOftheWeek:nth-of-type(2) {
+  flex: 1;
+}
+
+.latestPostWrapper > article:first-of-type {
+  background-color: #b4b4b4;
+}
+
+.latestPostWrapper > article:last-of-type {
+  background-color: #b4b4b4;
+}
+
+.latestPostWrapper > div:first-of-type {
+  background-color: #b4b4b4;
+}
+
+.latestPostWrapper > div:last-of-type {
+  background-color: #b4b4b4;
+}
+
+#featuredPostOne > div:nth-of-type(2) {
+  background-color: #444;
 }
