@@ -12,6 +12,11 @@ ul {
   margin: 0;
 }
 
+.vertical-align {
+  position: relative;
+  top: 50%;
+}
+
 .greyBg {
   background-color: #b4b4b4;
   width: 100%;
@@ -194,4 +199,38 @@ ul {
 
 .books {
   margin-top: 20px;
+}
+
+.personOftheWeek{
+   height: 342px;
+}
+
+.personOftheWeek > article{
+   display: flex;
+}
+
+.personOftheWeek:nth-of-type(2){
+  flex: 1;
+}
+.personOftheWeekContent{
+    padding: 20px;
+}
+
+.peopleWroteWrapperRow{
+  height: 280px;
+  display: flex;
+}
+.peopleWroteWrapperRow > article {
+  display: flex;
+  flex: 1;
+  padding: 20px
+}
+
+.peopleWroteWrapperRow > article > div:last-of-type {
+  flex: 1;
+}
+
+.peopleWrote_article_details{
+  margin-left: 20px;
+  padding-right: 20px;
 }
