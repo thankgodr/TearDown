@@ -10,15 +10,14 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-
 }
 
-.greyBg{
+.greyBg {
   background-color: #b4b4b4;
   width: 100%;
 }
 
-.grey{
+.grey {
   background-color: #eee;
 }
 
@@ -26,62 +25,93 @@ ul {
   background-color: #444;
 }
 
-.menuList{
+.menuList {
   display: flex;
   justify-content: center;
 }
 
-
-.menuList > li{
+.menuList > li {
   flex: 1;
   height: 176px;
   vertical-align: middle;
 }
 
-.menuList > li > div{
-  position: relative;  
-  top: 50%;  
+.menuList > li > div {
+  position: relative;
+  top: 50%;
   transform: translateY(-50%);
-  -ms-transform:translateY(-50%); /* IE */
-  -moz-transform:translateY(-50%); /* Firefox */
-  -webkit-transform:translateY(-50%); /* Safari and Chrome */
-  -o-transform:translateY(-50%);
+  -ms-transform: translateY(-50%); /* IE */
+  -moz-transform: translateY(-50%); /* Firefox */
+  -webkit-transform: translateY(-50%); /* Safari and Chrome */
+  -o-transform: translateY(-50%);
   text-align: center;
 }
 
-.menuList > li:first-of-type{
-  background-color: #444;	
+.menuList > li:first-of-type {
+  background-color: #444;
 }
 
-.theBigTwo{
+.theBigTwo {
   width: 100%;
-display: inline-flex;
- 
+  display: inline-flex;
 }
 
-.theBigTwo > div{
+.theBigTwo > div {
   width: 50%;
   height: 767px;
 }
 .articleHeader {
   display: inline-flex;
 }
-.tagWrapper{
+.tagWrapper {
   display: inline-flex;
 }
 
-.tagWrapper > p{
+.tagWrapper > p {
   margin-right: 10px;
 }
 
 .mainArticleWrapper {
   text-align: center;
-  position: relative;  
-  top: 50%;  
+  position: relative;
+  top: 50%;
   transform: translateY(-50%);
-  -ms-transform:translateY(-50%); /* IE */
-  -moz-transform:translateY(-50%); /* Firefox */
-  -webkit-transform:translateY(-50%); /* Safari and Chrome */
-  -o-transform:translateY(-50%);
+  -ms-transform: translateY(-50%); /* IE */
+  -moz-transform: translateY(-50%); /* Firefox */
+  -webkit-transform: translateY(-50%); /* Safari and Chrome */
+  -o-transform: translateY(-50%);
   text-align: center;
+}
+
+.sectionThree {
+  width: 100%;
+  height: 300px;
+ margin-top: 20px;
+ display: inline-flex;
+}
+
+.article-details {
+  width: 60%;
+}
+
+.article-details article {
+  margin-left: 10%;
+  padding-top: 50px;
+}
+
+.article-details ul {
+  list-style-type: circle;
+}
+
+.article-details li {
+  margin-left: 70px;
+  padding: 10px;
+}
+
+.secthreeImage {
+  width: 40%;
+}
+
+.secthreeImage img{
+  margin-top: 50px;
 }
