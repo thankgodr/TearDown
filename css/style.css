@@ -115,3 +115,37 @@ ul {
 .secthreeImage img{
   margin-top: 50px;
 }
+
+.latestPostWrapper{
+  display: flex;
+  margin-top: 10px;
+}
+
+.latestPostWrapper > div {
+  flex: 1;
+  height: 542px;
+}
+.latestPostWrapper > div:first-of-type {
+  background-color: #b4b4b4;
+}
+.latestPostWrapper > div:last-of-type {
+  background-color: #b4b4b4;
+}
+.latestPost {
+  padding: 20px
+}
+#featuredPostOne > div {
+  height: 745px;
+}
+
+#featuredPostOne > div:nth-of-type(2) {
+  background-color: #444;
+}
+#featuredPostOne{
+  color: #fff;
+}
+
+#featuredPostOne .articleCenter {
+  text-align: center;
+}
+
