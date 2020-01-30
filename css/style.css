@@ -82,17 +82,6 @@ footer {
   padding: 20px;
 }
 
-.menuList > li > div {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%); /* IE */
-  -moz-transform: translateY(-50%); /* Firefox */
-  -webkit-transform: translateY(-50%); /* Safari and Chrome */
-  -o-transform: translateY(-50%);
-  text-align: center;
-}
-
 .article-details li {
   margin-left: 70px;
   padding: 10px;
@@ -157,10 +146,6 @@ footer {
 
 .latestPost {
   padding: 20px;
-}
-
-#featuredPostOne > div {
-  height: 745px;
 }
 
 #featuredPostOne {
@@ -237,15 +222,16 @@ footer {
   font-size: 20px;
 }
 
-.lastRow > img,
-.lastRow > div {
+.lastRow > img {
   flex: 1;
   padding: 10px;
   margin-bottom: 50px;
 }
 
-#featuredPostTwo > div {
-  height: 497px;
+.lastRow > div {
+  flex: 1;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
 .section-eight {
@@ -312,8 +298,31 @@ footer {
   display: flex;
 }
 
+.menuList > li > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%); /* IE */
+  -moz-transform: translateY(-50%); /* Firefox */
+  -webkit-transform: translateY(-50%); /* Safari and Chrome */
+  -o-transform: translateY(-50%);
+  text-align: center;
+}
+
 .menuList > li:first-of-type {
   background-color: #444;
+}
+
+.latestPostWrapper > div:first-of-type {
+  background-color: #b4b4b4;
+}
+
+.latestPostWrapper > article:first-of-type {
+  background-color: #b4b4b4;
+}
+
+.latestPostWrapper > div:last-of-type {
+  background-color: #b4b4b4;
 }
 
 .peopleWroteWrapperRow > article > div:last-of-type {
@@ -324,20 +333,16 @@ footer {
   flex: 1;
 }
 
-.latestPostWrapper > article:first-of-type {
-  background-color: #b4b4b4;
-}
-
 .latestPostWrapper > article:last-of-type {
   background-color: #b4b4b4;
 }
 
-.latestPostWrapper > div:first-of-type {
-  background-color: #b4b4b4;
+#featuredPostOne > div {
+  height: 745px;
 }
 
-.latestPostWrapper > div:last-of-type {
-  background-color: #b4b4b4;
+#featuredPostTwo > div {
+  height: 497px;
 }
 
 #featuredPostOne > div:nth-of-type(2) {
