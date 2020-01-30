@@ -211,7 +211,7 @@ footer {
 }
 
 .personOftheWeekContent {
-    padding: 20px;
+  padding: 20px;
 }
 
 .peopleWroteWrapperRow {
@@ -225,8 +225,8 @@ footer {
 }
 
 .section-seven ul {
-list-style: circle;
-margin-left: 20px;
+  list-style: circle;
+  margin-left: 20px;
 }
 
 .section-seven li {
@@ -237,7 +237,8 @@ margin-left: 20px;
   font-size: 20px;
 }
 
-.lastRow > img, .lastRow > div {
+.lastRow > img,
+.lastRow > div {
   flex: 1;
   padding: 10px;
   margin-bottom: 50px;
@@ -249,21 +250,19 @@ margin-left: 20px;
 
 .section-eight {
   width: 100%;
- height: 700px;
- display: inline-flex;
- margin-top: 20px;
+  height: 700px;
+  display: inline-flex;
+  margin-top: 20px;
 }
 
 .section-eight-links {
   width: 20%;
   padding-left: 40px;
-
 }
 
 .section-eight-links ul {
   list-style: circle;
-margin-left: 40px;
-
+  margin-left: 40px;
 }
 
 .section-eight-links li {
