@@ -234,3 +234,67 @@ ul {
   margin-left: 20px;
   padding-right: 20px;
 }
+
+.section-seven ul{
+list-style: circle;
+margin-left: 20px;
+}
+
+.section-seven li{
+  padding: 15px;
+}
+
+.section-seven a{
+  font-size: 20px;
+}
+
+#featuredPostTwo > div{
+  height: 497px;
+}
+
+.section-eight {
+  width: 100%;
+ height: 700px;
+ display: inline-flex;
+ margin-top: 20px;
+}
+
+.section-eight-links {
+  width: 20%;
+  padding-left: 40px;
+
+}
+
+.section-eight-links ul{
+  list-style: circle;
+margin-left: 40px;
+
+}
+
+.section-eight-links li{
+  padding: 15px;
+  font-size: 20px;
+  color: blue;
+}
+
+.section-eight-image{
+  text-align: center;
+  width: 70%;
+  background-color: #eee;
+  border-radius: 10px;
+}
+.section-eight-image form{
+  margin-top: 20px;
+}
+
+.section-eight-image input{
+  height: 40px;
+  border-radius: 20px;
+}
+
+.section-eight-image button{
+  height: 40px;
+  border-radius: 20px;
+  color: #000;
+  outline: none;
+}
