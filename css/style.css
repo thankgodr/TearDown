@@ -14,7 +14,7 @@ ul {
 }
 
 .greyBg{
-  background-color: #eee;
+  background-color: #b4b4b4;
   width: 100%;
 }
 
@@ -53,6 +53,13 @@ ul {
   background-color: #444;	
 }
 
-.theBigFour > div {
+.theBigTwo{
+  width: 100%;
+display: inline-flex;
+ 
+}
+
+.theBigTwo > div{
+  width: 50%;
   height: 767px;
 }
