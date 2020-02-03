@@ -12,7 +12,7 @@ ul {
   margin: 0;
 }
 
-article h2 {
+article > h2 {
   display: none;
 }
 
